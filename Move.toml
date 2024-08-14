@@ -1,0 +1,17 @@
+[package]
+name = "bank_vault"
+version = "1.0.0"
+authors = []
+
+[addresses]
+bankvault_addr='0xf7633fb3b6a4399549d63a7c60adaa930decb946740dcc99cda321ebef7ee544'
+[dev-addresses]
+# bankvault_addr = "0x123"
+
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "devnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
